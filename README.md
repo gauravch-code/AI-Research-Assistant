@@ -28,22 +28,22 @@ A Retrieval-Augmented Generation (RAG) system that enables academic question ans
 
 .
 ├── backend
-│   ├── rag\_pipeline
-│   │   └── rag\_engine.py          # Core Q\&A and summarization logic
+│   ├── rag_pipeline
+│   │   └── rag_engine.py  
 │   ├── retriever
-│   │   ├── pinecone\_setup.py      # Pinecone initialization and index management
-│   │   └── document\_retriever.py  # Embedding, upserting, and query functions
+│   │   ├── pinecone_setup.py      
+│   │   └── document_retriever.py 
 │   └── utils
-│       ├── document\_loader.py     # Helper to load text files
-│       └── pdf\_loader.py          # PDF-to-text conversion and upload handling
+│       ├── document_loader.py     
+│       └── pdf_loader.py          
 ├── data
-│   └── processed\_docs             # Place .txt or .pdf files to ingest
+│   └── processed_docs            
 ├── frontend
-│   └── streamlit\_app.py           # Streamlit application
-├── run\_query.py                   # Command-line interface
-├── requirements.txt               # Python dependencies
-├── .env                           # Environment variables (API keys)
-└── README.md                      # Project overview and instructions
+│   └── streamlit_app.py          
+├── run_query.py                  
+├── requirements.txt              
+├── .env                          
+└── README.md
 
 ````
 
