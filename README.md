@@ -143,6 +143,3 @@ streamlit run frontend/streamlit_app.py
 - **GitHub**: [gauravch-code](https://github.com/gauravch-code)
 
 For any questions or feedback, please open an issue on GitHub or reach out via email.
-
-```
-```
