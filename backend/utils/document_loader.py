@@ -1,4 +1,4 @@
-import os
+import os, sys
 
 def load_documents(directory):
     docs = []
