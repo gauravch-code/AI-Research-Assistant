@@ -1,0 +1,10 @@
+langchain
+dspy
+pinecone-client
+sentence-transformers
+transformers
+streamlit
+peft
+torch
+datasets
+python-dotenv
