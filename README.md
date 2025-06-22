@@ -61,7 +61,7 @@ A Retrieval-Augmented Generation (RAG) system that enables academic question ans
    ```bash
    git clone https://github.com/gauravch-code/AI-Research-Assistant.git
    cd AI-Research-Assistant
-````
+    ````
 
 2. **Create and activate a virtual environment**
 
