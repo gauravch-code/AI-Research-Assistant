@@ -114,10 +114,10 @@ streamlit run frontend/streamlit_app.py
 
 ## How It Works
 
-1. **Embedding**: each document is converted to embeddings using a HuggingFace embedding model (`all-MiniLM-L6-v2`).
-2. **Indexing**: embeddings are stored in Pinecone for efficient similarity search.
-3. **Retrieval**: given a query, top-k relevant passages are fetched from Pinecone.
-4. **Chunking**: lengthy passages are split into manageable chunks to respect model context limits.
+1. **Embedding**: Each document is converted to embeddings using a HuggingFace embedding model (`all-MiniLM-L6-v2`).
+2. **Indexing**: Embeddings are stored in Pinecone for efficient similarity search.
+3. **Retrieval**: Given a query, top-k relevant passages are fetched from Pinecone.
+4. **Chunking**: Lengthy passages are split into manageable chunks to respect model context limits.
 5. **Generation**:
 
    * **Q\&A**: the model (GPT-3.5-Turbo or Flan-T5) consumes the retrieved chunks and the question to produce an answer.
